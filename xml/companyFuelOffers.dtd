@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT company_fuel_offers (company_info, fuel_offers)>
+<!ELEMENT company_info (name, tax_id, address)>
+<!ELEMENT address (street, municipality, prefecture)>
+<!ELEMENT fuel_offers (offer*)>
+<!ELEMENT offer (fuel_type, end_date, price, active)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT tax_id (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT municipality (#PCDATA)>
+<!ELEMENT prefecture (#PCDATA)>
+<!ELEMENT fuel_type (#PCDATA)>
+<!ELEMENT end_date (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT active (#PCDATA)>

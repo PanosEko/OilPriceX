@@ -1,0 +1,155 @@
+/* Set custom font family for html body */
+body {
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+/* Change font-size of active links within a navigation bar */
+.navbar .nav-item > .nav-link.active  {
+    font-size: 25px;
+}
+
+/* Change font-weight and size of h3 elements to lighter */
+h3{
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+/* Change font-size of h2 elements to lighter */
+h2{
+    font-size: 27px;
+}
+
+/* Add margin-right to 'bottom-nav' a elements */
+.bottom-nav a{
+    margin-right: 40px;
+}
+
+/* Set 'bottom-nav' background color and text align properties */
+.bottom-nav{
+    background-color: #375a7f;
+    text-align: center;
+}
+
+/* Set 'scrollable-menu' height, max-height, max-width, border and overflow-y properties */
+.scrollable-menu {
+    height: 650px;
+    max-width: 75%;
+    overflow-y: scroll;
+    border: 5px solid;
+    border-radius: 20px;
+    background-color: #375a7f;
+}
+
+
+/* Set 'form-container' background color and border properties */
+.p-border{
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: #29435e;
+    padding: 8px;
+}
+
+/* Style for the message box that appears on top of screen */
+.message-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Add styles to the popup form container */
+.form-popup {
+    border: 2px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: #303030;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    border-radius: 10px;
+    width: 85vw; /* Set width to 85% of viewport width */
+    height: 75vh; /* Set height to 75% of viewport height */
+}
+
+/* Styles for the form container */
+.form-container {
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+/* Style for full-width input fields */
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    color: #000000;
+}
+
+/* Style for full-width textarea fields */
+textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    color: #000000;
+}
+
+/* Style for the close button of the popup form */
+.form-popup .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    line-height: 16px;
+    padding: 4px;
+    margin: 4px;
+    border: none;
+    background: none;
+    color: #aaa;
+}
+
+/* Style for a class that enavbles a table to be scrollable */
+.table-scroll {
+ height: 400px;
+ overflow: auto;
+}
+
+/* Set default and on hover color of 'a' elements */
+a {
+    color: #2c81ba;
+}
+a:hover {
+    color: #359be0;
+}
+
+/* Set default and on hover color of 'a' elements in bootom nav*/
+.bottom-nav > a {
+    color: #d8d8d8;
+}
+.bottom-nav > a:hover {
+    color: #ffffff;
+}
+
+/* hide the dots from the list and display text in the center */
+.hide-dots-center-text {
+    list-style: none;
+    text-align: center;
+}
+
+/* set border and padding for the list items */
+.li-border {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
