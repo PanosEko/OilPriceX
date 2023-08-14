@@ -11,6 +11,8 @@ A web application for managing fuel price offerings.
 ![ezgif com-video-to-gif (2)](https://github.com/PanosEko/OilPriceX/assets/93736094/ff51778a-fc3e-464f-89cd-42050f2c7499)
 
 ## Application Screenshots
+### Main page
+![image](https://github.com/PanosEko/OilPriceX/assets/93736094/48d6a1b4-803f-41f3-8f26-2fbae35bfe8d)
 ### Login
 ![image](https://github.com/PanosEko/OilPriceX/assets/93736094/bd947e16-66d4-4098-8e1d-bdf4b50a1a34)
 ### Search 
