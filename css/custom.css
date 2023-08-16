@@ -1,6 +1,8 @@
 /* Set custom font family for html body */
 body {
     font-family: 'Ubuntu', sans-serif !important;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* Change font-size of active links within a navigation bar */
@@ -17,6 +19,10 @@ h3{
 /* Change font-size of h2 elements to lighter */
 h2{
     font-size: 27px;
+}
+
+h1{
+    font-size: 37px;
 }
 
 /* Add margin-right to 'bottom-nav' a elements */
@@ -121,7 +127,7 @@ textarea{
 
 /* Style for a class that enavbles a table to be scrollable */
 .table-scroll {
- height: 400px;
+ height: 600px;
  overflow: auto;
 }
 
@@ -131,6 +137,14 @@ a {
 }
 a:hover {
     color: #359be0;
+}
+
+/* Adjust background color for the announcement section */
+.d-flex.justify-content-center.p-3 {
+    background-color: #303030;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 30px;
 }
 
 /* Set default and on hover color of 'a' elements in bootom nav*/
@@ -153,3 +167,51 @@ a:hover {
     border-radius: 5px;
     padding: 10px;
 }
+
+#sidebar {
+    background-color: #303030; /* Replace with your desired background color */
+    height:  87vh;
+    width: 25vh;
+}
+
+.wrapper {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.login-form {
+    border-radius: 10px;
+    max-width: 380px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #303030;
+    border: 1px solid rgba(0,0,0,0.1);}
+
+.login-form-heading{
+    margin-bottom: 30px;
+}
+
+.form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    @include box-sizing(border-box);
+}
+
+input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.btn-block {
+    width: 100%; /* Set the button width to 100% to span the container */
+}
+

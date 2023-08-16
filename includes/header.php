@@ -5,7 +5,9 @@
 <head>
     <meta charset="utf-8">
     <!-- The title of the webpage -->
-    <title>OilPriceX Login</title>
+    <title>OilPriceX</title>
+    <! -- favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/images/oilfavicon.png">
     <!-- Link to Bootstrap css file -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- Link to custom css file -->
