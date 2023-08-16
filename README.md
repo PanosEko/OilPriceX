@@ -24,9 +24,6 @@ To enhance user interactions, I integrated JavaScript. This scripting language i
 ## Submitted offers xml download and display with xslt
 ![ezgif com-video-to-gif (3)](https://github.com/PanosEko/OilPriceX/assets/93736094/5a2d3ba0-7b73-4848-94e0-faae2cfa1b5b)
 
-## Database ERD
-![image](https://github.com/PanosEko/OilPriceX/assets/93736094/72f966df-6d6e-4ea7-8634-c02e9f82bea2)
-
 ### File Structure:
 The application boasts a well-organized file structure, designed to maintain clarity and efficiency. Below are the key folders within the project:
 
@@ -38,6 +35,9 @@ The application boasts a well-organized file structure, designed to maintain cla
 - js: JavaScript files in this folder handle form validation by checking input values and providing instant feedback to users.
 - model: The DbClient class in this directory facilitates smooth database interactions, handling data insertion, deletion, and updates.
 - views: This is where the code resides for rendering the actual web pages that users interact with.
+
+## Database ERD
+![image](https://github.com/PanosEko/OilPriceX/assets/93736094/72f966df-6d6e-4ea7-8634-c02e9f82bea2)
 
 ## Application Screenshots
 ### Main page
