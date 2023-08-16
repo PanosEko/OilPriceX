@@ -1,5 +1,4 @@
 # OilPriceX
-A web application for managing fuel price offerings.
 
 I have developed a web application that I am excited to showcase on GitHub. This app features a dynamic combination of backend and frontend technologies, resulting in a seamless user experience. Let me walk you through its architecture and components.
 
