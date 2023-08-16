@@ -1,10 +1,10 @@
 # OilPriceX
 A web application for managing fuel price offerings.
 
-## Login and offer search showcase
+## Login and offer search 
 ![ezgif com-video-to-gif](https://github.com/PanosEko/OilPriceX/assets/93736094/df140a94-84d2-4a5f-b995-ef66445b5291)
 
-## Registration and error handling showcase
+## Registration and user input error handling 
 ![ezgif com-video-to-gif (1)](https://github.com/PanosEko/OilPriceX/assets/93736094/a08a9ad8-7d17-4ec6-8233-9fbf5bfa2b66)
 
 ## Anouncement post editing by admin
